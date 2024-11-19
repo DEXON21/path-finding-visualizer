@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pathfinding Visualizer</h1>
+    <div class="controls">
+        <button onclick="setAlgorithm('dijkstra')">Dijkstra's Algorithm</button>
+        <button onclick="setAlgorithm('bfs')">BFS</button>
+        <button onclick="setAlgorithm('dfs')">DFS</button>
+        <button onclick="startSearch()">Start Search</button>
+        <button onclick="resetGrid()">Reset Grid</button>
+    </div>
+    <div id="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
